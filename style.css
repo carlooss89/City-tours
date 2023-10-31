@@ -1,0 +1,118 @@
+* {
+    font-family: 'Rokkitt', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* margin: 44px 0 144px 76px; */
+    margin-top: 47px;
+    margin-left: 42px;
+
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    margin-right: 32px;
+    letter-spacing: 0.85px;
+    color: rgba(23, 35, 61, 1);
+}
+
+.button-header {
+    border-radius: 8px;
+    width: 124px;
+    height: 51px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    background: #6fbf44;
+    border: 1px solid #4cb538;
+}
+
+.logo-image {
+    margin: 163px 0 0 121px;
+    filter: drop-shadow(8px 8px 8px rgba(198, 202, 204, 0.897));
+    /* margin-left: 50px; */
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    /*
+    Como meu h1 e meu parágrafo estão dentro da "section" fica mais fácil colocar o width nela.
+    */
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    /* width: 493px; */
+    color: rgba(22, 26, 73, 1);
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    color: rgba(75, 80, 90, 1);
+}
+
+.link-learn {
+    text-decoration: underline;
+    font-weight: 500px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: rgba(111, 191, 68, 1);
+
+    /*
+    font-weight: 500px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: rgba(111, 191, 68, 1);
+    background:transparent;
+    border: none;
+    */
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 900px) {
+
+    header {}
+
+    .link-header {}
+
+    .button-header {}
+
+    .logo-image {}
+
+    section {}
+
+    h1 {}
+
+    p {}
+
+    .link-learn {}
+
+
+
+
+}
